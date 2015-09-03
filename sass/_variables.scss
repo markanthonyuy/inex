@@ -1,0 +1,46 @@
+// Sizes
+
+$width: 1300px;
+$logo-width: 200px;
+$logo-height: 80px;
+
+// Colors
+$orange: #FF2D00;
+$black: #000;
+$white: #fff;
+
+// Margins
+.baseMarginTop {
+	margin-top: 10px;
+}
+
+.baseMarginBottom {
+	margin-bottom: 10px;
+}
+
+// Resuable Class
+.main-header {
+	@extend .baseMarginTop;
+	@extend .baseMarginBottom;
+}
+
+.css-transition-slideshow-nav {
+	-webkit-transition: all .2s ease-out .2s;
+	-moz-transition: all .2s ease-out .2s;
+	-o-transition: all .2s ease-out .2s;
+	transition: all .2s ease-out .2s;
+}
+
+.read-more {
+	color: $white;
+	text-transform: uppercase;
+	padding: 5px 13px 3px 13px !important;
+	display: inline-block;
+	font-size: 14px !important;
+	line-height: 18px !important;
+
+	&:hover {
+		text-decoration: none;
+		color: $white;
+	}
+}
