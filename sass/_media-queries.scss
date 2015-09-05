@@ -1,0 +1,23 @@
+@media (min-width: 768px) and (max-width: 992px) {
+	.main-slideshow-nav {
+		width: 250px;
+	}
+
+	.main-slideshow-nav:nth-child(4), .main-slideshow-nav:nth-child(5) {
+		width: 375px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.main-slideshow-nav {
+		width: 194px;
+
+		h2 {
+			font-size: 18px;
+		}
+
+		.text-small {
+			font-size: 19px
+		}
+	}
+}
