@@ -1,8 +1,6 @@
 (function($) {
 	
-
 	console.log('Hooray!');
-
 
 	$('.main-slideshow-nav').on('click', function(e) {
 		var _this = $(this),
