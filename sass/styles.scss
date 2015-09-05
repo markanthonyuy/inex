@@ -285,55 +285,5 @@ body {
 	}
 }
 
-.side-menu {
-	ul {
-		list-style: none;
-		padding: 0;
-		margin-bottom: 0;
-
-		li {
-			height: 42px;
-			a {
-				color: $orange;
-				padding: 10px;
-				display: inline-block;
-				width: 100%;
-				border-bottom: 1px solid $black;
-				font-family: 'Monda' sans serif;
-
-				&:hover {
-					text-decoration: none;
-					background: $orange;
-					color: $white;
-				}
-
-				.fa { color: $white; }
-			}
-
-			.active {
-				background: $orange;
-				color: $white;
-			}
-
-
-		}
-	}
-}
-
-.main-content {
-	margin-top: 20px;
-
-	.breadcrumb {
-		li {
-			a {
-				color: $black;
-			}
-
-			.active {
-				color: $orange;
-			}
-		}
-	}
-}
-
+@import 'about';
 @import 'media-queries';
