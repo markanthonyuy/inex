@@ -262,6 +262,12 @@
   .main-content .breadcrumb li .active {
     color: #FF2D00; }
 
+.main-google-map {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden; }
+
 @media (min-width: 768px) and (max-width: 992px) {
   .main-slideshow-nav {
     width: 250px; }
