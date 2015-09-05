@@ -1,13 +1,16 @@
 // Sizes
-
-$width: 1300px;
+$width: 1170px;
 $logo-width: 200px;
 $logo-height: 80px;
+
+$font-slideshow-heading: 24px;
+$line-height-slideshow-heading: 24px;
 
 // Colors
 $orange: #FF2D00;
 $black: #000;
 $white: #fff;
+$gray: #f7f7f7;
 
 // Margins
 .baseMarginTop {
@@ -22,6 +25,14 @@ $white: #fff;
 .main-header {
 	@extend .baseMarginTop;
 	@extend .baseMarginBottom;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.no-margin {
+	margin: 0 !important;
 }
 
 .css-transition-slideshow-nav {
