@@ -1,0 +1,29 @@
+.main-search {
+	width: 195px;
+	background: $white;
+	border-radius: 5px;
+	margin-top: 20px;
+	border: 1px solid $black;
+	height: 30px;
+
+	input {
+		width: 140px;
+		margin: 3px 0 0 10px;
+		border: none;
+		outline: none;
+		font-size: 12px;
+		font-family: 'Monda' sans serif;
+	}
+
+	button {
+		margin-right: 5px;
+		background: $white;
+		border: none;
+		outline: none;
+	}
+
+	.fa {
+		font-size: 12px;
+		color: $black;
+	}
+}

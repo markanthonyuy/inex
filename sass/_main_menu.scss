@@ -1,0 +1,50 @@
+
+.main-nav {
+	background: $black;
+	height: 40px;
+	border-bottom: 2px solid $orange;
+
+	ul {
+		list-style: none;
+		line-height: 40px;
+		padding: 0;
+	}
+
+	li {
+		float: left;
+
+		a {
+			color: $white;
+			padding: 0 20px 0 20px;
+			font-family: 'Monda' sans serif;
+
+			&:hover {
+				text-decoration: none;
+				color: $orange;
+			}
+		}
+
+		.active {
+			color: $orange;
+		}
+	}
+}
+
+.main-contact-menu {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: $white;
+	line-height: 40px;
+	font-family: 'Monda' sans serif;
+	background: $orange;
+
+	&:hover {
+		text-decoration: none;
+		color: $white;
+	}
+
+	.fa {
+		color: $white;
+	}
+}
