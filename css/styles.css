@@ -27,8 +27,14 @@
     text-decoration: none;
     color: #fff; }
 
-.container {
+.breadcrumb {
   background: #fff; }
+
+body {
+  background: cornsilk; }
+
+.container {
+  background: cornsilk; }
 
 .fa {
   color: #FF2D00;
@@ -249,10 +255,14 @@
           background: #FF2D00;
           color: #fff; }
         .side-menu ul li a .fa {
-          color: #fff; }
+          color: #FF2D00; }
+      .side-menu ul li a:hover .fa {
+        color: #fff; }
       .side-menu ul li .active {
         background: #FF2D00;
         color: #fff; }
+        .side-menu ul li .active .fa {
+          color: #fff; }
 
 .main-content {
   margin-top: 20px;
