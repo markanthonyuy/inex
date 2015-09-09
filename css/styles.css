@@ -27,9 +27,6 @@
     text-decoration: none;
     color: #fff; }
 
-.breadcrumb {
-  background: #fff; }
-
 body {
   background: cornsilk; }
 
@@ -264,14 +261,16 @@ body {
         .side-menu ul li .active .fa {
           color: #fff; }
 
-.main-content {
-  margin-top: 20px;
-  min-height: 500px; }
-  .main-content .breadcrumb li a {
-    color: #000;
-    font-family: 'Monda' sans serif; }
-  .main-content .breadcrumb li .active {
-    color: #FF2D00; }
+.main-content-container {
+  background: #fff; }
+  .main-content-container .main-content {
+    margin-top: 20px;
+    min-height: 500px; }
+    .main-content-container .main-content .breadcrumb li a {
+      color: #000;
+      font-family: 'Monda' sans serif; }
+    .main-content-container .main-content .breadcrumb li .active {
+      color: #FF2D00; }
 
 .main-google-map {
   height: 250px;
