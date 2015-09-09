@@ -1,9 +1,11 @@
 @import 'variables';
 
-body {}
+body {
+	background: cornsilk;
+}
 
 .container {
-	background: $white;
+	background: cornsilk;
 }
 
 .fa { color: $orange; font-size: 16px; }
