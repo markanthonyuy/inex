@@ -38,20 +38,25 @@
 	}
 }
 
-.main-content {
-	margin-top: 20px;
-	min-height: 500px;
+.main-content-container {
+	background: $white;
+	
+	.main-content {
+		margin-top: 20px;
+		min-height: 500px;
 
-	.breadcrumb {
-		li {
-			a {
-				color: $black;
-				font-family: 'Monda' sans serif;
-			}
+		.breadcrumb {
+			li {
+				a {
+					color: $black;
+					font-family: 'Monda' sans serif;
+				}
 
-			.active {
-				color: $orange;
+				.active {
+					color: $orange;
+				}
 			}
 		}
 	}
+	
 }
