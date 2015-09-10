@@ -106,7 +106,7 @@ body {
     color: #fff; }
 
 .main-slideshow-nav {
-  width: 234px;
+  width: 256px;
   height: 130px;
   position: relative;
   padding: 0;
@@ -128,7 +128,7 @@ body {
     font-family: 'Monda' sans serif;
     text-transform: uppercase;
     overflow: hidden;
-    font-size: 24px; }
+    font-size: 25px; }
   .main-slideshow-nav.active h2 {
     position: relative;
     line-height: 200px;
@@ -149,7 +149,7 @@ body {
   .main-slideshow-nav.active:hover h2 {
     cursor: default; }
   .main-slideshow-nav .text-small {
-    font-size: 24px;
+    font-size: 25px;
     line-height: 24px;
     height: 130px;
     padding-top: 50px;
@@ -291,5 +291,12 @@ body {
       font-size: 18px; }
     .main-slideshow-nav .text-small {
       font-size: 19px; } }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+    width: 100%; }
+
+  .main-slideshow-nav {
+    width: 20%; } }
 
 /*# sourceMappingURL=styles.css.map */
