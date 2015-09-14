@@ -22,6 +22,11 @@
 				text-decoration: none;
 				color: $orange;
 			}
+
+			&:focus {
+				text-decoration: none;
+				color: $orange;
+			}
 		}
 
 		.active {
