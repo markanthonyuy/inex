@@ -28,10 +28,10 @@
     color: #fff; }
 
 body {
-  background: cornsilk; }
+  background: #f7f7f7; }
 
 .container {
-  background: cornsilk; }
+  background: #f7f7f7; }
 
 .fa {
   color: #FF2D00;
@@ -86,6 +86,9 @@ body {
       padding: 0 20px 0 20px;
       font-family: 'Monda' sans serif; }
       .main-nav li a:hover {
+        text-decoration: none;
+        color: #FF2D00; }
+      .main-nav li a:focus {
         text-decoration: none;
         color: #FF2D00; }
     .main-nav li .active {
@@ -271,6 +274,8 @@ body {
       font-family: 'Monda' sans serif; }
     .main-content-container .main-content .breadcrumb li .active {
       color: #FF2D00; }
+    .main-content-container .main-content .main-content-text {
+      text-align: justify; }
 
 .main-google-map {
   height: 250px;
