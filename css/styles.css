@@ -235,35 +235,6 @@ body {
     font-size: 11px;
     margin-top: 23px; }
 
-.side-menu {
-  margin-bottom: 20px; }
-  .side-menu ul {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 0; }
-    .side-menu ul li {
-      height: 42px; }
-      .side-menu ul li a {
-        color: #FF2D00;
-        padding: 10px;
-        display: inline-block;
-        width: 100%;
-        border-bottom: 1px solid #000;
-        font-family: 'Monda' sans serif; }
-        .side-menu ul li a:hover {
-          text-decoration: none;
-          background: #FF2D00;
-          color: #fff; }
-        .side-menu ul li a .fa {
-          color: #FF2D00; }
-      .side-menu ul li a:hover .fa {
-        color: #fff; }
-      .side-menu ul li .active {
-        background: #FF2D00;
-        color: #fff; }
-        .side-menu ul li .active .fa {
-          color: #fff; }
-
 .main-content-container {
   background: #fff; }
   .main-content-container .main-content {
@@ -282,6 +253,42 @@ body {
   width: 100%;
   margin-bottom: 20px;
   overflow: hidden; }
+
+.side-menu {
+  margin-bottom: 20px; }
+  .side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0; }
+    .side-menu ul li {
+      height: 42px;
+      width: 100%; }
+      .side-menu ul li a {
+        color: #FF2D00;
+        padding: 10px;
+        display: inline-block;
+        height: 42px;
+        width: 100%;
+        border-bottom: 1px solid #000;
+        font-family: 'Monda' sans serif; }
+        .side-menu ul li a:hover {
+          text-decoration: none;
+          background: #FF2D00;
+          color: #fff; }
+        .side-menu ul li a .pull-left {
+          width: 80%;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap; }
+        .side-menu ul li a .fa {
+          color: #FF2D00; }
+      .side-menu ul li a:hover .fa {
+        color: #fff; }
+      .side-menu ul li .active {
+        background: #FF2D00;
+        color: #fff; }
+        .side-menu ul li .active .fa {
+          color: #fff; }
 
 @media (max-width: 768px) {
   .main-header div {
