@@ -1,3 +1,117 @@
+@media (max-width: 768px) {
+	.main-header {
+		div {
+			width: 100% !important;
+			float: none !important;
+			padding: 0;
+
+			.main-logo {
+				display: block;
+				text-align: center;
+			}
+
+			.text-right {
+				text-align: center;
+			}
+		}
+	}
+
+	.main-nav {
+		height: 100%;
+
+		div {
+			width: 100% !important;
+			float: none !important;
+			padding: 0;
+		}
+
+		nav {
+			ul {
+				li {
+					float: none;
+					display: block;
+					text-align: center;
+
+					a {
+						width: 100%;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	.main-slideshow-nav {
+		width: 50%;
+		height: 120px;
+
+		figure {
+			width: 100%;
+			height: 120px;
+			overflow: hidden;
+
+			img { 
+				width: 100%;
+			}
+		}
+
+		h2 {
+			height: 120px;
+			line-height: 120px;
+			font-size: 20px;
+		}
+
+		&.active h2 {
+			line-height: 120px;
+			font-size: 20px;
+		}
+
+		&:hover h2 {
+			line-height: 120px;
+			font-size: 20px;
+		}
+
+		.text-small {
+			height: 120px;
+			padding-top: 0;
+			line-height: 120px;
+			font-size: 20px;
+		}
+
+		&.active .text-small {
+			padding-top: 0;
+			line-height: 120px;
+			font-size: 20px;
+		}
+
+		&:hover .text-small {
+			padding-top: 0;
+			line-height: 120px;
+			font-size: 20px;
+		}
+	}
+
+	.main-slideshow-nav:nth-child(5) {
+		width: 100%;
+	}
+
+	.main-footer {
+		div {
+			width: 100% !important;
+			float: none !important;
+			padding: 0;
+			text-align: center;
+			display: block;
+		}
+
+		.address {
+			text-align: center;
+			display: block;
+			
+		}
+	}
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
 	.main-slideshow-nav {
 		width: 250px;
