@@ -1,0 +1,49 @@
+.side-menu {
+	margin-bottom: 20px;
+	ul {
+		list-style: none;
+		padding: 0;
+		margin-bottom: 0;
+
+		li {
+			height: 42px;
+			width: 100%;
+			
+			a {
+				color: $orange;
+				padding: 10px;
+				display: inline-block;
+				height: 42px;
+				width: 100%;
+				border-bottom: 1px solid $black;
+				font-family: 'Monda' sans serif;
+
+				&:hover {
+					text-decoration: none;
+					background: $orange;
+					color: $white;
+				}
+
+				.pull-left {
+					width: 80%;
+					text-overflow: ellipsis;
+					overflow: hidden;
+					white-space: nowrap;
+				}
+
+				.fa { color: $orange; }
+			}
+
+			a:hover .fa { color: $white; }
+
+			.active {
+				background: $orange;
+				color: $white;
+
+				.fa { color: $white; }
+			}
+
+
+		}
+	}
+}
