@@ -326,29 +326,30 @@ body {
       height: 120px;
       overflow: hidden; }
       .main-slideshow-nav figure img {
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
     .main-slideshow-nav h2 {
       height: 120px;
-      line-height: 120px;
+      line-height: 1;
+      padding-top: 50px;
       font-size: 20px; }
     .main-slideshow-nav.active h2 {
-      line-height: 120px;
+      line-height: 1;
+      padding-top: 50px;
       font-size: 20px; }
     .main-slideshow-nav:hover h2 {
-      line-height: 120px;
+      line-height: 1;
+      padding-top: 50px;
       font-size: 20px; }
     .main-slideshow-nav .text-small {
       height: 120px;
-      padding-top: 0;
-      line-height: 120px;
+      padding-top: 50px;
       font-size: 20px; }
     .main-slideshow-nav.active .text-small {
-      padding-top: 0;
-      line-height: 120px;
+      padding-top: 50px;
       font-size: 20px; }
     .main-slideshow-nav:hover .text-small {
-      padding-top: 0;
-      line-height: 120px;
+      padding-top: 50px;
       font-size: 20px; }
 
   .main-slideshow-nav:nth-child(5) {
@@ -368,7 +369,11 @@ body {
     width: 250px; }
 
   .main-slideshow-nav:nth-child(4), .main-slideshow-nav:nth-child(5) {
-    width: 375px; } }
+    width: 375px; }
+    .main-slideshow-nav:nth-child(4) figure, .main-slideshow-nav:nth-child(5) figure {
+      width: 100%; }
+      .main-slideshow-nav:nth-child(4) figure img, .main-slideshow-nav:nth-child(5) figure img {
+        width: 100%; } }
 @media (min-width: 992px) and (max-width: 1200px) {
   .main-slideshow-nav {
     width: 194px; }
