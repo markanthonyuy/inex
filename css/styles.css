@@ -301,6 +301,9 @@ body {
     .main-header div .text-right {
       text-align: center; }
 
+  .main-search input {
+    width: 85%; }
+
   .main-nav {
     height: 100%; }
     .main-nav div {
