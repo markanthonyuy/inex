@@ -186,17 +186,17 @@ body {
 .main-slideshow-wrap {
   width: 100%;
   overflow: hidden;
-  height: 350px; }
+  height: 310px; }
   .main-slideshow-wrap .main-slideshow-content.active {
     display: block;
     width: 100%; }
   .main-slideshow-wrap .main-slideshow-content {
     display: none;
-    height: 350px;
+    height: 310px;
     position: relative; }
     .main-slideshow-wrap .main-slideshow-content figure img {
       width: 100%;
-      height: 350px; }
+      height: 310px; }
     .main-slideshow-wrap .main-slideshow-content .main-slideshow-content-desc {
       position: absolute;
       bottom: 0;
@@ -264,23 +264,27 @@ body {
       height: 42px;
       width: 100%; }
       .side-menu ul li a {
+        position: relative;
         color: #FF2D00;
         padding: 10px;
         display: inline-block;
         height: 42px;
         width: 100%;
         border-bottom: 1px solid #000;
-        font-family: 'Monda' sans serif; }
+        font-family: 'Monda' sans serif;
+        font-size: 13px; }
         .side-menu ul li a:hover {
           text-decoration: none;
           background: #FF2D00;
           color: #fff; }
         .side-menu ul li a .pull-left {
-          width: 80%;
+          width: 97%;
           text-overflow: ellipsis;
           overflow: hidden;
           white-space: nowrap; }
         .side-menu ul li a .fa {
+          position: absolute;
+          right: 5px;
           color: #FF2D00; }
       .side-menu ul li a:hover .fa {
         color: #fff; }
