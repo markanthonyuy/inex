@@ -99,7 +99,7 @@
 .main-slideshow-wrap {
 	width: 100%;
 	overflow: hidden;
-	height: 350px;
+	height: 310px;
 
 	.main-slideshow-content.active {
 		display: block;
@@ -108,12 +108,12 @@
 
 	.main-slideshow-content {
 		display: none;
-		height: 350px;
+		height: 310px;
 		position: relative;
 
 		figure img {
 			width: 100%;
-			height: 350px;
+			height: 310px;
 		}
 
 		.main-slideshow-content-desc {
