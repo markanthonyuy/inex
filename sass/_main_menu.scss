@@ -1,6 +1,6 @@
 
 .main-nav {
-	background: $black;
+	background: #d25527;
 	height: 40px;
 	border-bottom: 2px solid $orange;
 
@@ -20,17 +20,17 @@
 
 			&:hover {
 				text-decoration: none;
-				color: $orange;
+				color: $black;
 			}
 
 			&:focus {
 				text-decoration: none;
-				color: $orange;
+				color: $black;
 			}
 		}
 
 		.active {
-			color: $orange;
+			color: $black;
 		}
 	}
 }
