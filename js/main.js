@@ -25,7 +25,7 @@
 
   // The slider being synced must be initialized first
   $('#carousel').flexslider({
-    animation: "slide",
+    animation: 'slide',
     controlNav: false,
     animationLoop: false,
     slideshow: true,
@@ -36,14 +36,14 @@
   });
  
   $('#slider').flexslider({
-    animation: "slide",
+    animation: 'slide',
     controlNav: false,
     animationLoop: false,
     directionNav: false,
     slideshow: true,
     slideshowSpeed: 3000,
     animationSpeed: 1000,
-    sync: "#carousel"
+    sync: '#carousel'
   });
 
 })(jQuery);
